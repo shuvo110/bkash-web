@@ -1,0 +1,19 @@
+
+.card:hover h2{
+    transition: 0.4s;
+    color: red;
+}
+.iconCard:hover h1{
+    transition: 0.4s;
+    color: red;
+}
+.business-Card:hover h1{
+    transition: 0.4s;
+    color: red;
+}
+/* footer code setar */
+
+li{
+    list-style-type: none;
+    margin:15px 0px;
+}

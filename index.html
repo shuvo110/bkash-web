@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en" Data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bkash Web</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- dai link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- icon link past -->
+    <script src="https://kit.fontawesome.com/8f04ba0d30.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- nav code start -->
+    <nav class="sticky top-0 z-40">
+        <div class="navbar bg-green-500 py-0 lg:px-20">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-black">
+                        <li><a>Item 1</a></li>
+                        <li>
+                            <a>Parent</a>
+                            <ul class="p-2">
+                                <li><a>Submenu 1</a></li>
+                                <li><a>Submenu 2</a></li>
+                            </ul>
+                        </li>
+                        <li><a>Item 3</a></li>
+                    </ul>
+                </div>
+                <div class="w-32">
+                    <img class="w-full" src="img/b-removebg-preview.png" alt="">
+                </div>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 text-lg text-white">
+                    <li><a class="hover:border border-dotted border-red-500">Compaigns</a></li>
+                    <li>
+                        <details>
+                            <summary class="hover:border border-dotted border-red-500">services</summary>
+                            <ul class="w-[200px] text-black">
+                                <li><a class="border border-black text-sm">Payment</a></li>
+                                <li><a class="border border-black text-sm">Mobile Recharge</a></li>
+                                <li><a class="border border-black text-sm">Send Many</a></li>
+                                <li><a class="border border-black text-sm">Cash Out</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li><a class="hover:border border-dotted border-red-500">Business</a></li>
+                    <li>
+                        <details>
+                            <summary class="hover:border border-dotted border-red-500">Help</summary>
+                            <ul class="w-[200px] text-black">
+                                <li><a class="border border-black text-sm">Help Lien 25</a></li>
+                                <li><a class="border border-black text-sm">Live Chat</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li><a class="hover:border border-dotted border-red-500">Career</a></li>
+                    <li><a class="hover:border border-dotted border-red-500">About</a></li>
+                    <li><a class="hover:border border-dotted border-red-500">Blog</a></li>
+                    <li><a class="hover:border border-dotted border-red-500">Student</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a href="#"><button class="btn btn-error">Bkash</button></a>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- hero sailder code start -->
+    <div>
+        <div class="carousel w-full">
+            <div id="item1" class="carousel-item w-full">
+                <img src="img/salider-img/one.webp" class="w-full" />
+            </div>
+            <div id="item2" class="carousel-item w-full">
+                <img src="img/salider-img/two.webp" class="w-full" />
+            </div>
+            <div id="item3" class="carousel-item w-full">
+                <img src="img/salider-img/there.webp" class="w-full" />
+            </div>
+            <div id="item4" class="carousel-item w-full">
+                <img src="img/salider-img/four.webp" class="w-full" />
+            </div>
+        </div>
+        <div class="flex w-full justify-center gap-2 py-2 px-5">
+            <a href="#item1" class="btn btn-xs">1</a>
+            <a href="#item2" class="btn btn-xs">2</a>
+            <a href="#item3" class="btn btn-xs">3</a>
+            <a href="#item4" class="btn btn-xs">4</a>
+        </div>
+        <div class="m-auto lg:w-3/4 text-center my-12">
+            <h1 class="lg:text-5xl text-4xl my-5 font-semibold">Pay Bill through bKash anytime, anywhere!</h1>
+            <button class="btn btn-outline btn-secondary">Learn more</button>
+        </div>
+    </div>
+
+    <!-- main code start -->
+    <main>
+        <div class="bg-[#FFEFF6] py-6 z-0">
+            <div class="w-[86%] m-auto">
+                <h1 class="text-center text-4xl my-2 font-extrabold pt-12 pb-10">One Platform for all Financial
+                    Solutions</h1>
+                <!-- card code start -->
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-x-7 gap-y-7 lg:gap-y-0 py-5 ">
+                    <div class="card bg-base-100 py-2 px-5 hover:shadow-xl cursor-pointer ">
+                        <figure class="w-3/4 m-auto">
+                            <img class="w-full" src="img/Platform-img/payment.webp" alt="Shoes" />
+                        </figure>
+                        <div class="text-center text-lg">
+                            <h2 class="mb-5 text-3xl my-2 font-semibold">Payment</h2>
+                            <p>Making Payment is now much easier through the bKash App.</p>
+
+                        </div>
+                        <a href="#" class="text-center mt-10">Lerem more</a>
+                    </div>
+                    <div class="card bg-base-100 py-2 px-5 hover:shadow-xl cursor-pointer">
+                        <figure class="w-3/4 m-auto">
+                            <img class="w-full" src="img/Platform-img/mobile-rech.webp" alt="Shoes" />
+                        </figure>
+                        <div class="text-center text-lg">
+                            <h2 class="mb-5 text-3xl my-2 font-semibold">Mobile <br> Recharge</h2>
+                            <p>Mobile Recharge any Number and get the best offer</p>
+
+                        </div>
+                        <a href="#" class="text-center mt-10">Lerem more</a>
+                    </div>
+                    <div class="card bg-base-100 py-2 px-5 hover:shadow-xl cursor-pointer">
+                        <figure class="w-3/4 m-auto">
+                            <img class="w-full" src="img/Platform-img/send-many.webp" alt="Shoes" />
+                        </figure>
+                        <div class="text-center text-lg">
+                            <h2 class="mb-5 text-3xl my-2 font-semibold">Send Many</h2>
+                            <p>Send Many form bkash to any number instantly</p>
+
+                        </div>
+                        <a href="#" class="text-center mt-10">Lerem more</a>
+                    </div>
+                    <div class="card bg-base-100 py-2 px-5 hover:shadow-xl cursor-pointer">
+                        <figure class="w-3/4 m-auto">
+                            <img class="w-full" src="img/Platform-img/cash-out.webp" alt="Shoes" />
+                        </figure>
+                        <div class="text-center text-lg">
+                            <h2 class="mb-5 text-3xl my-2 font-semibold ">Cash Out</h2>
+                            <p>Withdraw cash anytime from the largest Agent ATM network</p>
+
+                        </div>
+                        <a href="#" class="text-center mt-10">Lerem more</a>
+                    </div>
+                </div>
+                <div class="divider mt-20 md:text-2xl font-semibold">Learn More about bKash Services</div>
+                <div class="flex items-center justify-between py-10 mt-10">
+                    <button class="btn btn-circle btn-outline">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <!-- many logo -->
+                    <div class="grid lg:grid-cols-7 mt-4">
+                        <div class="iconCard text-center cursor-pointer">
+                            <i class="fa-solid fa-mobile-screen-button text-4xl text-[#6FA481]"></i>
+                            <h1 class="text-2xl mt-12 font-semibold">Mobile Recharge</h1>
+                        </div>
+                        <div class="iconCard text-center cursor-pointer">
+                            <i class="fa-solid fa-bag-shopping text-4xl text-[#E88453]"></i>
+                            <h1 class="text-2xl mt-12 font-semibold">Payment</h1>
+                        </div>
+                        <div class="iconCard text-center cursor-pointer">
+                            <i class="fa-solid fa-hand-holding-dollar text-4xl text-[#96D5D7]"></i>
+                            <h1 class="text-2xl mt-12 font-semibold">Cash Out</h1>
+                        </div>
+                        <div class="iconCard text-center cursor-pointer">
+                            <i class="fa-solid fa-money-check-dollar text-4xl text-[#db92ff]"></i>
+                            <h1 class="text-2xl mt-12 font-semibold">Add Maney</h1>
+                        </div>
+                        <div class="iconCard text-center cursor-pointer">
+                            <i class="fa-solid fa-lightbulb text-4xl text-[#e753f2]"></i>
+                            <h1 class="text-2xl mt-12 font-semibold">Pay Bill</h1>
+                        </div>
+                        <div class="iconCard text-center cursor-pointer">
+                            <i class="fa-solid fa-sack-dollar text-4xl text-[#3af1b4a6]"></i>
+                            <h1 class="text-2xl mt-12 font-semibold">Saving</h1>
+                        </div>
+                        <div class="iconCard text-center cursor-pointer">
+                            <i class="fa-solid fa-hand-holding-medical text-4xl text-[#ed7d49]"></i>
+                            <h1 class="text-2xl mt-12 font-semibold">Loan</h1>
+                        </div>
+                    </div>
+                    <button class="btn btn-circle btn-outline">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- downlod app -->
+        <div class="lg:h-[80vh] text-center lg:text-left text-white"
+            style="background-image: url(img/static-banner.webp);">
+            <div class="lg:flex flex-row-reverse lg:justify-around items-center">
+                <img src="img/bkash-removebg-preview.png"
+                    class="m-auto w-[50%] lg:m-0 lg:w-[19%] rounded-lg shadow-2xl" />
+                <div>
+                    <h1 class="text-5xl font-bold text-red-500 py-5">Downlod bkash App</h1>
+                    <p class="py-6">
+                        Open your Account from the bKash App in a few simple steps and get <br> up to 125 TK bonus!
+                    </p>
+                    <div class="flex items-center justify-center">
+                        <a href="#"><img src="img/goggle.png" alt="" class="w-[200px]"></a>
+                        <a href="#"><img src="img/ipone-gogle-removebg-preview.png" alt="" class="w-[200px] "></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- bKash for Business code start -->
+        <div class="w-[86%] m-auto py-10">
+            <div class="lg:w-[57%]  text-center m-auto">
+                <h1 class="text-xl lg:text-5xl font-semibold my-8">bKash for Business</h1>
+                <p class="text-lg">The diverse range of financial solutions offered by bKash ensures fast, easy and safe
+                    transactions
+                    for your business. Make your day-to-day operations more efficient with bKash.</p>
+            </div>
+            <div class="lg:flex items-center justify-around my-4 lg:my-16">
+                <div class="grid grid-cols-2 lg:grid-cols-3 gap-5">
+                    <div class="business-Card  border p-9 hover:shadow-lg rounded-lg">
+                        <img src="img/bKash-Business-img/one.webp" alt="" class="w-full">
+                        <h1 class="text-lg text-center my-5">Online Business</h1>
+                    </div>
+                    <div class="business-Card  border p-9 hover:shadow-lg rounded-lg">
+                        <img src="img/bKash-Business-img/two.webp" alt="" class="w-full">
+                        <h1 class="text-lg text-center my-5">Merchant</h1>
+                    </div>
+                    <div class="business-Card  border p-9 hover:shadow-lg rounded-lg">
+                        <img src="img/bKash-Business-img/there.webp" alt="" class="w-full">
+                        <h1 class="text-lg text-center my-5">Educational Institutions</h1>
+                    </div>
+                    <div class="business-Card  border p-9 hover:shadow-lg rounded-lg">
+                        <img src="img/bKash-Business-img/four.webp" alt="" class="w-full">
+                        <h1 class="text-lg text-center my-5">Corporate & Enterprise</h1>
+                    </div>
+                    <div class="business-Card border p-9 hover:shadow-lg rounded-lg">
+                        <img src="img/bKash-Business-img/five.webp" alt="" class="w-full">
+                        <h1 class="text-lg text-center my-5">Microfinance</h1>
+                    </div>
+                    <div class="business-Card  border p-9 hover:shadow-lg flex items-center justify-center rounded-lg">
+                        <div class="w-[100px] h-[100px] bg-[#FFF2F8] rounded-full flex items-center justify-center">
+                            <i class="fa-solid fa-angle-right text-3xl text-red-500"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[100%]">
+                    <img src="img/bKash-Business-img/mane.webp" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <!-- What's New in bKash code start -->
+        <div class="w-[86%] m-auto py-10">
+            <h1 class="text-center mb-10 text-5xl font-semibold lg:my-10">What's New in bKash</h1>
+            <div class="grid grid-cols-2 lg:grid-cols-3 gap-y-5 gap-x-10 lg:mt-16">
+                <div class="card bg-base-100  shadow-xl rounded-xl cursor-pointer">
+                    <img src="img/What's-New-in-bKash/one.webp" alt="Shoes" class="rounded-t-xl" />
+                    <div class="px-3">
+                        <h2 class="pt-2 text-xl font-semibold">bKash receives ‘Fintech Pioneer Award’</h2>
+                        <p class="mt-20 py-5 text-[#0008]">Posted on 19 August 2024 | 15 mins read</p>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-xl rounded-xl cursor-pointer">
+                    <img src="img/What's-New-in-bKash/two.webp" alt="Shoes" class="rounded-t-xl" />
+                    <div class="px-3">
+                        <h2 class="pt-2 text-xl font-semibold">bKash, Country’s Best & Most Loved Brand for 5th
+                            consecutive year</h2>
+                        <p class="mt-20 py-5 text-[#0008]">Posted on 19 August 2024 | 15 mins read</p>
+                    </div>
+                </div>
+                <div class="card bg-base-100  shadow-xl rounded-xl cursor-pointer">
+                    <img src="img/What's-New-in-bKash/there.webp" alt="Shoes" class="rounded-t-xl" />
+                    <div class="px-3">
+                        <h2 class="pt-2 text-xl font-semibold">bKash CEO on the Transformative Impact of Financial
+                            Inclusion</h2>
+                        <p class="mt-20 py-5 text-[#0008]">Posted on 19 August 2024 | 15 mins read</p>
+                    </div>
+                </div>
+            </div>
+            <div class="m-auto lg:w-3/4 text-center my-12">
+                <button class="btn btn-outline btn-secondary">Learn more</button>
+            </div>
+        </div>
+
+        <!-- Nearest bKash Touchpoints code start -->
+        <div class="w-[70%] m-auto pb-10">
+            <h1 class="text-center text-3xl lg:text-5xl font-semibold pb-5 md:pb-0 lg:py-6">Nearest bKash Touchpoints
+            </h1>
+            <div class="grid  lg:grid-cols-2 gap-7 py-5">
+                <div class="business-Card p-6 border hover:shadow-lg rounded-lg cursor-pointer">
+                    <h1 class="text-3xl text-center font-semibold">Agent Points</h1>
+                    <p class="text-center my-4">List of active agent points all over Bangladesh</p>
+                    <img src="img/Nearest-bKash-Touchpoints/one.webp" alt="" class="w-full">
+                </div>
+                <div class="business-Card p-6 border hover:shadow-lg rounded-lg cursor-pointer">
+                    <h1 class="text-3xl text-center font-semibold">ATM Cash Out Points</h1>
+                    <p class="text-center my-4">List of Partner Banks' ATM booths to Cash Out</p>
+                    <img src="img/Nearest-bKash-Touchpoints/two.webp" alt="" class="w-full">
+                </div>
+                <div class="business-Card p-6 border hover:shadow-lg rounded-lg cursor-pointer">
+                    <h1 class="text-3xl text-center font-semibold">Customer Care Points</h1>
+                    <p class="text-center my-4">List of bKash Customer Care Centers</p>
+                    <img src="img/Nearest-bKash-Touchpoints/there.webp" alt="" class="w-full">
+                </div>
+                <div class="business-Card p-6 border hover:shadow-lg rounded-lg cursor-pointer">
+                    <h1 class="text-3xl text-center font-semibold">bKash Merchants</h1>
+                    <p class="text-center my-4">List of active agent points all over Bangladesh</p>
+                    <img src="img/Nearest-bKash-Touchpoints/four.webp" alt="" class="w-full">
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Get Exclusive bKash Offers code start -->
+        <div class="lg:flex items-center bg-[#FFF0F6] py-10 px-16">
+            <div class=" pb-10">
+                <h3 class="text-3xl md:text-7xl font-semibold">Get Exclusive bKash Offers</h3>
+                <p class="py-10">Pay with bKash and get exciting Cashback & Discount offers</p>
+                <button class="btn btn-outline btn-secondary md:text-4xl px-5">View More Offers</button>
+            </div>
+            <!-- off -->
+
+            <div class="lg:w-[50%]">
+                <div class="business-Card border  hover:shadow-lg rounded-lg cursor-pointer bg-white">
+                    <img src="img/bKash-Offers/one.webp" alt="" class="w-full">
+                    <div class="py-3 px-5">
+                        <h1 class="text-3xl  font-semibold">Pay Utility Bills charge free</h1>
+                        <p class="py-1 text-sm text-[#0000006f]">Pay Utility Bills charge free , upto 4 electricity bill
+                        </p>
+                    </div>
+                </div>
+                <div class=" gap-6 lg:flex mt-4">
+                    <div class="business-Card border hover:shadow-lg rounded-lg cursor-pointer bg-white mt-10 lg:mt-0">
+                        <img src="img/bKash-Offers/two.webp" alt="" class="w-full">
+                        <div class="py-3 px-5">
+                            <h1 class="text-2xl  font-semibold">Get Affordable Health Care</h1>
+                            <p class="py-1 text-sm text-[#0000006f]">Offers on Healthcare at Medico Bio with bkash</p>
+                        </div>
+                    </div>
+                    <div class="business-Card border hover:shadow-lg rounded-lg cursor-pointer bg-white mt-10 lg:mt-0">
+                        <img src="img/bKash-Offers/there.webp" alt="" class="w-full">
+                        <div class="py-3 px-5">
+                            <h1 class="text-2xl  font-semibold">Pay Class XI Admission fee</h1>
+                            <p class="py-1 text-sm text-[#0000006f]">Pay Class XI Admission Fee without worries with
+                                bKash.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Secure and Convenient Experience code  -->
+        <div class="py-6 lg:py-16">
+            <h3 class="text-center text-xl lg:text-4xl font-semibold pb-6 lg:pb-10 text-red-400">Secure and Convenient
+                Experience</h3>
+            <div class="container mx-auto lg:px-32 flex flex-row items-center justify-around">
+                <!-- Left Section -->
+                <div class="flex flex-col space-y-8 text-pink-600 text-right">
+                    <div>
+                        <h2 class="font-bold text-lg lg:text-3xl">Information Update</h2>
+                        <p class="text-black">Update customer information <br> easily through bKash App</p>
+                    </div>
+                    <div>
+                        <h2 class="font-bold text-lg lg:text-3xl">bKash PIN and <br> Verification Code</h2>
+                        <p class="text-black">Secure transactions with PIN and <br> Verification Code</p>
+                        <p class="text-xs mt-2 text-gray-500">*Never share PIN and Verification Code <br> with anyone
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Center Section (Phone Image) -->
+                <div class="my-8 lg:my-0 mx-2">
+                    <img src="img/phone.webp" alt="Phone Image" class="w-64 mx-auto">
+                </div>
+
+                <!-- Right Section -->
+                <div class="flex flex-col space-y-8 text-pink-600 text-left">
+                    <div>
+                        <h2 class="font-bold text-lg lg:text-3xl">Secure Transactions</h2>
+                        <p class="text-black">Scan Customer, agent and <br> Merchant QR codes to make <br>secure
+                            transactions.</p>
+                    </div>
+                    <div>
+                        <h2 class="font-bold text-lg lg:text-3xl">Card information security</h2>
+                        <p class="text-black">bKash adheres to payment card <br> industry's security standards</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- footer code start -->
+    <footer class=" bg-[#1E1E1E] text-white py-10 px-20">
+        <div class="footer  md:flex-col lg:flex-row justify-around">
+            <aside class="container md:w-[230px] m-auto lg:w-[300px]">
+                <img src="img/logo.png" alt="" class="w-[150px]">
+                <p>
+                    bKash provides fast, secure and convenient money transfer and payment services via mobile phone to
+                    the
+                    people of Bangladesh
+                </p>
+                <h3 class="md:text-2xl text-red-500 my-2">Download bKash App</h3>
+                <div class="flex items-center">
+                    <img src="img/goggle.png" alt="" class="w-[100px] cursor-pointer">
+                    <img src="img/ipone-gogle-removebg-preview.png" alt="" class="w-[100px] cursor-pointer">
+                </div>
+            </aside>
+            <div class="grid grid-cols-3 lg:grid-cols-4 gap-x-16 gap-y-16">
+                <div>
+                    <h6 class="text-white text-xl font-semibold cursor-pointer hover:text-red-400 transition">Services</h6>
+                    <li><a class="link link-warning no-underline">Campaigns</a></li>
+                    <li><a class="link link-warning no-underline">Customer Support</a></li>
+                    <li><a class="link link-warning no-underline">Complaint Cell</a></li>
+                </div>
+                <div>
+                    <h6 class="text-white text-xl font-semibold cursor-pointer hover:text-red-400 transition">Company</h6>
+                    <li><a class="link link-warning no-underline">About us</a></li>
+                    <li><a class="link link-warning no-underline">Contact</a></li>
+                    <li><a class="link link-warning no-underline">Career</a></li>
+                </div>
+                <div>
+                    <h6 class="text-white text-xl font-semibold cursor-pointer hover:text-red-400 transition">Business</h6>
+                    <li><a class="link link-warning no-underline">Be a bKash Supplier</a></li>
+                    <li><a class="link link-warning no-underline">Be a bKash Merchant</a></li>
+                    <li><a class="link link-warning no-underline">Digital Payroll</a></li>
+                </div>
+                <div>
+                    <h6 class="text-white text-xl font-semibold cursor-pointer hover:text-red-400 transition">Others</h6>
+                    <li><a class="link link-warning no-underline">Others</a></li>
+                    <li><a class="link link-warning no-underline">FAQ</a></li>
+                    <li><a class="link link-warning no-underline">Security Tips</a></li>
+                </div>
+            </div>
+        </div>
+        <div class="divider divider-success">@shuvo Roy Web-development</div>
+        <div class="flex justify-between items-center pb-10">
+            <h3>© 2024 bKash, All Rights Reserved</h3>
+            <div>
+                <i class="text-2xl mx-1 text-white cursor-pointer fa-brands fa-facebook"></i>
+                <i class="text-2xl mx-1 text-white cursor-pointer fa-brands fa-linkedin"></i>
+                <i class="text-2xl mx-1 text-white cursor-pointer fa-brands fa-instagram"></i>
+                <i class="text-2xl mx-1 text-white cursor-pointer fa-brands fa-twitter"></i>
+                <i class="text-2xl mx-1 text-white cursor-pointer fa-solid fa-hand-holding-heart"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
